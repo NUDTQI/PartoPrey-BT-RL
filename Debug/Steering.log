@@ -1,0 +1,240 @@
+﻿生成启动时间为 2017/6/24 9:10:52。
+     1>项目“D:\zq\Com\PatrolPreyGame - FlatQ\Steering.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“.\Debug\PatrolPreyGame.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ICommon\TinyXML /ICommon\ /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo".\Debug\\" /Fd".\Debug\vc100.pdb" /FR".\Debug\\" /Gd /TP /analyze- /errorReport:prompt Agent.cpp AI\FSM\PredatorOwnedStates.cpp AI\RL\CAbstractionAction.cpp AI\RL\CPrimitiveAction.cpp AI\RL\QFunction.cpp AI\RL\QLearning.cpp AI\RL\QLearningDataIO.cpp Common\2D\Vector2d.cpp Common\BT\BevTreeBasic.cpp Common\Debug\DebugConsole.cpp Common\Game\EntityManager.cpp Common\misc\Cgdi.cpp Common\misc\iniFileLoaderBase.cpp Common\misc\WindowUtils.cpp Common\Time\PrecisionTimer.cpp GameMap.cpp GameWorld.cpp main.cpp Predator.cpp Prey.cpp SensorMemory.cpp SteeringBehaviors.cpp Obstacle.cpp ParamLoader.cpp Path.cpp
+         Path.cpp
+         ParamLoader.cpp
+         Obstacle.cpp
+         SteeringBehaviors.cpp
+         SensorMemory.cpp
+         Prey.cpp
+     1>d:\zq\com\patrolpreygame - flatq\ai\rl\state.h(31): warning C4172: 返回局部变量或临时变量的地址
+     1>d:\zq\com\patrolpreygame - flatq\judger.h(216): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\zq\com\patrolpreygame - flatq\common\bt\bevtreebasic.h(286): warning C4251: “BevWeightedSelector::mao_ChildNodesWeight”: class“std::vector<_Ty>”需要有 dll 接口由 class“BevWeightedSelector”的客户端使用
+                 with
+                 [
+                     _Ty=double
+                 ]
+     1>d:\zq\com\patrolpreygame - flatq\ai\rl\qlearning.h(45): warning C4244: “return”: 从“double”转换到“int”，可能丢失数据
+     1>d:\zq\com\patrolpreygame - flatq\statebevlearning.h(60): warning C4244: “参数”: 从“double”转换到“const int”，可能丢失数据
+     1>d:\zq\com\patrolpreygame - flatq\statebevlearning.h(60): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>d:\zq\com\patrolpreygame - flatq\statebevlearning.h(61): warning C4244: “参数”: 从“double”转换到“const int”，可能丢失数据
+     1>d:\zq\com\patrolpreygame - flatq\statebevlearning.h(61): warning C4244: “参数”: 从“double”转换到“const int”，可能丢失数据
+     1>d:\zq\com\patrolpreygame - flatq\statebevlearning.h(61): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>d:\zq\com\patrolpreygame - flatq\statebevlearning.h(66): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“DisLevel”
+     1>d:\zq\com\patrolpreygame - flatq\statebevlearning.h(68): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“DisLevel”
+     1>d:\zq\com\patrolpreygame - flatq\statebevlearning.h(70): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“DisLevel”
+     1>d:\zq\com\patrolpreygame - flatq\statebevlearning.h(81): warning C4172: 返回局部变量或临时变量的地址
+     1>d:\zq\com\patrolpreygame - flatq\statebevlearning.h(126): warning C4244: “参数”: 从“double”转换到“const int”，可能丢失数据
+     1>d:\zq\com\patrolpreygame - flatq\statebevlearning.h(126): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>d:\zq\com\patrolpreygame - flatq\statebevlearning.h(127): warning C4244: “参数”: 从“double”转换到“const int”，可能丢失数据
+     1>d:\zq\com\patrolpreygame - flatq\statebevlearning.h(127): warning C4244: “参数”: 从“double”转换到“const int”，可能丢失数据
+     1>d:\zq\com\patrolpreygame - flatq\statebevlearning.h(127): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>d:\zq\com\patrolpreygame - flatq\statebevlearning.h(132): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“DisLevel”
+     1>d:\zq\com\patrolpreygame - flatq\statebevlearning.h(134): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“DisLevel”
+     1>d:\zq\com\patrolpreygame - flatq\statebevlearning.h(136): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“DisLevel”
+     1>d:\zq\com\patrolpreygame - flatq\statebevlearning.h(146): warning C4172: 返回局部变量或临时变量的地址
+     1>d:\zq\com\patrolpreygame - flatq\statebevlearning.h(196): warning C4172: 返回局部变量或临时变量的地址
+     1>d:\zq\com\patrolpreygame - flatq\statebevlearning.h(245): warning C4244: “参数”: 从“double”转换到“const int”，可能丢失数据
+     1>d:\zq\com\patrolpreygame - flatq\statebevlearning.h(245): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>d:\zq\com\patrolpreygame - flatq\statebevlearning.h(246): warning C4244: “参数”: 从“double”转换到“const int”，可能丢失数据
+     1>d:\zq\com\patrolpreygame - flatq\statebevlearning.h(246): warning C4244: “参数”: 从“double”转换到“const int”，可能丢失数据
+     1>d:\zq\com\patrolpreygame - flatq\statebevlearning.h(246): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>d:\zq\com\patrolpreygame - flatq\statebevlearning.h(247): warning C4244: “参数”: 从“double”转换到“const int”，可能丢失数据
+     1>d:\zq\com\patrolpreygame - flatq\statebevlearning.h(247): warning C4244: “参数”: 从“double”转换到“const int”，可能丢失数据
+     1>d:\zq\com\patrolpreygame - flatq\statebevlearning.h(247): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>d:\zq\com\patrolpreygame - flatq\statebevlearning.h(252): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“DisLevel”
+     1>d:\zq\com\patrolpreygame - flatq\statebevlearning.h(256): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“DisLevel”
+     1>d:\zq\com\patrolpreygame - flatq\statebevlearning.h(258): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“DisLevel”
+     1>d:\zq\com\patrolpreygame - flatq\statebevlearning.h(260): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“DisLevel”
+     1>d:\zq\com\patrolpreygame - flatq\statebevlearning.h(262): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“DisLevel”
+     1>d:\zq\com\patrolpreygame - flatq\statebevlearning.h(264): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“DisLevel”
+     1>d:\zq\com\patrolpreygame - flatq\modelbevlearning.h(67): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>d:\zq\com\patrolpreygame - flatq\modelbevlearning.h(73): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>d:\zq\com\patrolpreygame - flatq\modelbevlearning.h(79): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>d:\zq\com\patrolpreygame - flatq\modelbevlearning.h(92): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>d:\zq\com\patrolpreygame - flatq\modelbevlearning.h(99): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>d:\zq\com\patrolpreygame - flatq\modelbevlearning.h(157): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>d:\zq\com\patrolpreygame - flatq\modelbevlearning.h(259): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“HealthLevel”
+     1>d:\zq\com\patrolpreygame - flatq\modelbevlearning.h(264): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“DisLevel”
+         Predator.cpp
+     1>d:\zq\com\patrolpreygame - flatq\predator.cpp(60): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+         main.cpp
+     1>d:\zq\com\patrolpreygame - flatq\main.cpp(204): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>d:\zq\com\patrolpreygame - flatq\main.cpp(309): warning C4305: “初始化”: 从“double”到“float”截断
+         GameWorld.cpp
+     1>d:\zq\com\patrolpreygame - flatq\ai\rl\state.h(31): warning C4172: 返回局部变量或临时变量的地址
+     1>d:\zq\com\patrolpreygame - flatq\judger.h(216): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\zq\com\patrolpreygame - flatq\ai\rl\qlearning.h(45): warning C4244: “return”: 从“double”转换到“int”，可能丢失数据
+     1>d:\zq\com\patrolpreygame - flatq\gameworld.cpp(614): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+     1>d:\zq\com\patrolpreygame - flatq\gameworld.cpp(614): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+     1>d:\zq\com\patrolpreygame - flatq\gameworld.cpp(614): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+     1>d:\zq\com\patrolpreygame - flatq\gameworld.cpp(639): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+         GameMap.cpp
+         PrecisionTimer.cpp
+         WindowUtils.cpp
+         iniFileLoaderBase.cpp
+     1>d:\zq\com\patrolpreygame - flatq\common\misc\inifileloaderbase.cpp(9): warning C4305: “参数”: 从“int”到“char”截断
+     1>d:\zq\com\patrolpreygame - flatq\common\misc\inifileloaderbase.cpp(9): warning C4309: “参数”: 截断常量值
+     1>d:\zq\com\patrolpreygame - flatq\common\misc\inifileloaderbase.cpp(57): warning C4129: “;”: 不可识别的字符转义序列
+     1>d:\zq\com\patrolpreygame - flatq\common\misc\inifileloaderbase.cpp(109): warning C4129: “;”: 不可识别的字符转义序列
+         Cgdi.cpp
+         EntityManager.cpp
+         DebugConsole.cpp
+         BevTreeBasic.cpp
+     1>d:\zq\com\patrolpreygame - flatq\common\bt\bevtreebasic.h(286): warning C4251: “BevWeightedSelector::mao_ChildNodesWeight”: class“std::vector<_Ty>”需要有 dll 接口由 class“BevWeightedSelector”的客户端使用
+                 with
+                 [
+                     _Ty=double
+                 ]
+         Vector2d.cpp
+         QLearningDataIO.cpp
+     1>d:\zq\com\patrolpreygame - flatq\ai\rl\state.h(31): warning C4172: 返回局部变量或临时变量的地址
+     1>d:\zq\com\patrolpreygame - flatq\ai\rl\qlearning.h(45): warning C4244: “return”: 从“double”转换到“int”，可能丢失数据
+     1>d:\zq\com\patrolpreygame - flatq\statebevlearning.h(60): warning C4244: “参数”: 从“double”转换到“const int”，可能丢失数据
+     1>d:\zq\com\patrolpreygame - flatq\statebevlearning.h(60): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>d:\zq\com\patrolpreygame - flatq\statebevlearning.h(61): warning C4244: “参数”: 从“double”转换到“const int”，可能丢失数据
+     1>d:\zq\com\patrolpreygame - flatq\statebevlearning.h(61): warning C4244: “参数”: 从“double”转换到“const int”，可能丢失数据
+     1>d:\zq\com\patrolpreygame - flatq\statebevlearning.h(61): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>d:\zq\com\patrolpreygame - flatq\statebevlearning.h(66): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“DisLevel”
+     1>d:\zq\com\patrolpreygame - flatq\statebevlearning.h(68): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“DisLevel”
+     1>d:\zq\com\patrolpreygame - flatq\statebevlearning.h(70): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“DisLevel”
+     1>d:\zq\com\patrolpreygame - flatq\statebevlearning.h(81): warning C4172: 返回局部变量或临时变量的地址
+     1>d:\zq\com\patrolpreygame - flatq\statebevlearning.h(126): warning C4244: “参数”: 从“double”转换到“const int”，可能丢失数据
+     1>d:\zq\com\patrolpreygame - flatq\statebevlearning.h(126): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>d:\zq\com\patrolpreygame - flatq\statebevlearning.h(127): warning C4244: “参数”: 从“double”转换到“const int”，可能丢失数据
+     1>d:\zq\com\patrolpreygame - flatq\statebevlearning.h(127): warning C4244: “参数”: 从“double”转换到“const int”，可能丢失数据
+     1>d:\zq\com\patrolpreygame - flatq\statebevlearning.h(127): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>d:\zq\com\patrolpreygame - flatq\statebevlearning.h(132): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“DisLevel”
+     1>d:\zq\com\patrolpreygame - flatq\statebevlearning.h(134): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“DisLevel”
+     1>d:\zq\com\patrolpreygame - flatq\statebevlearning.h(136): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“DisLevel”
+     1>d:\zq\com\patrolpreygame - flatq\statebevlearning.h(146): warning C4172: 返回局部变量或临时变量的地址
+     1>d:\zq\com\patrolpreygame - flatq\statebevlearning.h(196): warning C4172: 返回局部变量或临时变量的地址
+     1>d:\zq\com\patrolpreygame - flatq\statebevlearning.h(245): warning C4244: “参数”: 从“double”转换到“const int”，可能丢失数据
+     1>d:\zq\com\patrolpreygame - flatq\statebevlearning.h(245): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>d:\zq\com\patrolpreygame - flatq\statebevlearning.h(246): warning C4244: “参数”: 从“double”转换到“const int”，可能丢失数据
+     1>d:\zq\com\patrolpreygame - flatq\statebevlearning.h(246): warning C4244: “参数”: 从“double”转换到“const int”，可能丢失数据
+     1>d:\zq\com\patrolpreygame - flatq\statebevlearning.h(246): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>d:\zq\com\patrolpreygame - flatq\statebevlearning.h(247): warning C4244: “参数”: 从“double”转换到“const int”，可能丢失数据
+     1>d:\zq\com\patrolpreygame - flatq\statebevlearning.h(247): warning C4244: “参数”: 从“double”转换到“const int”，可能丢失数据
+     1>d:\zq\com\patrolpreygame - flatq\statebevlearning.h(247): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>d:\zq\com\patrolpreygame - flatq\statebevlearning.h(252): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“DisLevel”
+     1>d:\zq\com\patrolpreygame - flatq\statebevlearning.h(256): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“DisLevel”
+     1>d:\zq\com\patrolpreygame - flatq\statebevlearning.h(258): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“DisLevel”
+     1>d:\zq\com\patrolpreygame - flatq\statebevlearning.h(260): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“DisLevel”
+     1>d:\zq\com\patrolpreygame - flatq\statebevlearning.h(262): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“DisLevel”
+     1>d:\zq\com\patrolpreygame - flatq\statebevlearning.h(264): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“DisLevel”
+         QLearning.cpp
+     1>d:\zq\com\patrolpreygame - flatq\ai\rl\state.h(31): warning C4172: 返回局部变量或临时变量的地址
+     1>d:\zq\com\patrolpreygame - flatq\ai\rl\qlearning.h(45): warning C4244: “return”: 从“double”转换到“int”，可能丢失数据
+     1>d:\zq\com\patrolpreygame - flatq\ai\rl\qlearning.cpp(23): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\zq\com\patrolpreygame - flatq\ai\rl\qlearning.cpp(99): warning C4244: “初始化”: 从“const double”转换到“float”，可能丢失数据
+         正在生成代码...
+         正在编译...
+         QFunction.cpp
+     1>d:\zq\com\patrolpreygame - flatq\ai\rl\state.h(31): warning C4172: 返回局部变量或临时变量的地址
+     1>d:\zq\com\patrolpreygame - flatq\ai\rl\qfunction.cpp(28): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+         CPrimitiveAction.cpp
+     1>d:\zq\com\patrolpreygame - flatq\ai\rl\cprimitiveaction.cpp(7): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“ActionType”
+     1>d:\zq\com\patrolpreygame - flatq\ai\rl\cprimitiveaction.cpp(17): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“PRIMITIVEACTION”
+     1>d:\zq\com\patrolpreygame - flatq\ai\rl\cprimitiveaction.cpp(20): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“PRIMITIVEACTION”
+     1>d:\zq\com\patrolpreygame - flatq\ai\rl\cprimitiveaction.cpp(23): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“PRIMITIVEACTION”
+     1>d:\zq\com\patrolpreygame - flatq\ai\rl\cprimitiveaction.cpp(26): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“PRIMITIVEACTION”
+     1>d:\zq\com\patrolpreygame - flatq\ai\rl\cprimitiveaction.cpp(29): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“PRIMITIVEACTION”
+     1>d:\zq\com\patrolpreygame - flatq\ai\rl\cprimitiveaction.cpp(32): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“PRIMITIVEACTION”
+     1>d:\zq\com\patrolpreygame - flatq\ai\rl\cprimitiveaction.cpp(35): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“PRIMITIVEACTION”
+     1>d:\zq\com\patrolpreygame - flatq\ai\rl\cprimitiveaction.cpp(38): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“PRIMITIVEACTION”
+     1>d:\zq\com\patrolpreygame - flatq\ai\rl\cprimitiveaction.cpp(53): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“PRIMITIVEACTION”
+     1>d:\zq\com\patrolpreygame - flatq\ai\rl\cprimitiveaction.cpp(56): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“PRIMITIVEACTION”
+     1>d:\zq\com\patrolpreygame - flatq\ai\rl\cprimitiveaction.cpp(59): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“PRIMITIVEACTION”
+     1>d:\zq\com\patrolpreygame - flatq\ai\rl\cprimitiveaction.cpp(62): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“PRIMITIVEACTION”
+     1>d:\zq\com\patrolpreygame - flatq\ai\rl\cprimitiveaction.cpp(65): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“PRIMITIVEACTION”
+     1>d:\zq\com\patrolpreygame - flatq\ai\rl\cprimitiveaction.cpp(68): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“PRIMITIVEACTION”
+     1>d:\zq\com\patrolpreygame - flatq\ai\rl\cprimitiveaction.cpp(71): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“PRIMITIVEACTION”
+     1>d:\zq\com\patrolpreygame - flatq\ai\rl\cprimitiveaction.cpp(74): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“PRIMITIVEACTION”
+     1>d:\zq\com\patrolpreygame - flatq\ai\rl\cprimitiveaction.cpp(87): warning C4060: switch 语句没有包含“case”或“default”标签
+         CAbstractionAction.cpp
+     1>d:\zq\com\patrolpreygame - flatq\ai\rl\state.h(31): warning C4172: 返回局部变量或临时变量的地址
+         PredatorOwnedStates.cpp
+     1>d:\zq\com\patrolpreygame - flatq\ai\rl\state.h(31): warning C4172: 返回局部变量或临时变量的地址
+     1>d:\zq\com\patrolpreygame - flatq\judger.h(216): warning C4018: “<”: 有符号/无符号不匹配
+         Agent.cpp
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _DEBUG /D _VC80_UPGRADE=0x0600 /l"0x0809" /nologo /fo".\Debug\Script1.res" Script1.rc 
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo".\Debug\PatrolPreyGame.exe.embed.manifest.res" .\Debug\PatrolPreyGame_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug\PatrolPreyGame.exe" /INCREMENTAL /NOLOGO odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:".\Debug\PatrolPreyGame.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\zq\Com\PatrolPreyGame - FlatQ\Debug\PatrolPreyGame.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\PatrolPreyGame.lib" /MACHINE:X86 .\Debug\Script1.res
+         .\Debug\PatrolPreyGame.exe.embed.manifest.res
+         .\Debug\Agent.obj
+         .\Debug\PredatorOwnedStates.obj
+         .\Debug\CAbstractionAction.obj
+         .\Debug\CPrimitiveAction.obj
+         .\Debug\QFunction.obj
+         .\Debug\QLearning.obj
+         .\Debug\QLearningDataIO.obj
+         .\Debug\Vector2d.obj
+         .\Debug\BevTreeBasic.obj
+         .\Debug\DebugConsole.obj
+         .\Debug\EntityManager.obj
+         .\Debug\Cgdi.obj
+         .\Debug\iniFileLoaderBase.obj
+         .\Debug\WindowUtils.obj
+         .\Debug\PrecisionTimer.obj
+         .\Debug\GameMap.obj
+         .\Debug\GameWorld.obj
+         .\Debug\main.obj
+         .\Debug\Predator.obj
+         .\Debug\Prey.obj
+         .\Debug\SensorMemory.obj
+         .\Debug\SteeringBehaviors.obj
+         .\Debug\Obstacle.obj
+         .\Debug\ParamLoader.obj
+         .\Debug\Path.obj
+            正在创建库 .\Debug\PatrolPreyGame.lib 和对象 .\Debug\PatrolPreyGame.exp
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:".\Debug\PatrolPreyGame.exe.embed.manifest" /manifest .\Debug\PatrolPreyGame.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo".\Debug\PatrolPreyGame.exe.embed.manifest.res" .\Debug\PatrolPreyGame_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug\PatrolPreyGame.exe" /INCREMENTAL /NOLOGO odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:".\Debug\PatrolPreyGame.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\zq\Com\PatrolPreyGame - FlatQ\Debug\PatrolPreyGame.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\PatrolPreyGame.lib" /MACHINE:X86 .\Debug\Script1.res
+         .\Debug\PatrolPreyGame.exe.embed.manifest.res
+         .\Debug\Agent.obj
+         .\Debug\PredatorOwnedStates.obj
+         .\Debug\CAbstractionAction.obj
+         .\Debug\CPrimitiveAction.obj
+         .\Debug\QFunction.obj
+         .\Debug\QLearning.obj
+         .\Debug\QLearningDataIO.obj
+         .\Debug\Vector2d.obj
+         .\Debug\BevTreeBasic.obj
+         .\Debug\DebugConsole.obj
+         .\Debug\EntityManager.obj
+         .\Debug\Cgdi.obj
+         .\Debug\iniFileLoaderBase.obj
+         .\Debug\WindowUtils.obj
+         .\Debug\PrecisionTimer.obj
+         .\Debug\GameMap.obj
+         .\Debug\GameWorld.obj
+         .\Debug\main.obj
+         .\Debug\Predator.obj
+         .\Debug\Prey.obj
+         .\Debug\SensorMemory.obj
+         .\Debug\SteeringBehaviors.obj
+         .\Debug\Obstacle.obj
+         .\Debug\ParamLoader.obj
+         .\Debug\Path.obj
+            正在创建库 .\Debug\PatrolPreyGame.lib 和对象 .\Debug\PatrolPreyGame.exp
+         Steering.vcxproj -> D:\zq\Com\PatrolPreyGame - FlatQ\.\Debug\PatrolPreyGame.exe
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\bscmake.exe /nologo /o".\Debug\Steering.bsc" .\Debug\Agent.sbr .\Debug\PredatorOwnedStates.sbr .\Debug\CAbstractionAction.sbr .\Debug\CPrimitiveAction.sbr .\Debug\QFunction.sbr .\Debug\QLearning.sbr .\Debug\QLearningDataIO.sbr .\Debug\Vector2d.sbr .\Debug\BevTreeBasic.sbr .\Debug\DebugConsole.sbr .\Debug\EntityManager.sbr .\Debug\Cgdi.sbr .\Debug\iniFileLoaderBase.sbr .\Debug\WindowUtils.sbr .\Debug\PrecisionTimer.sbr .\Debug\GameMap.sbr .\Debug\GameWorld.sbr .\Debug\main.sbr .\Debug\Predator.sbr .\Debug\Prey.sbr .\Debug\SensorMemory.sbr .\Debug\SteeringBehaviors.sbr .\Debug\Obstacle.sbr .\Debug\ParamLoader.sbr .\Debug\Path.sbr
+       FinalizeBuildStatus:
+         正在删除文件“.\Debug\PatrolPreyGame.unsuccessfulbuild”。
+         正在对“.\Debug\PatrolPreyGame.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\zq\Com\PatrolPreyGame - FlatQ\Steering.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:01:12.51
